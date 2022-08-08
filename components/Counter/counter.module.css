@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.layout {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainButton {
+    border: 0;
+    border-radius: 15px;
+    background-color: darkblue;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.showCounter {
+    font-size: 40px;
+}
+
+@media (max-width: 400px) {
+    .mainTitle {
+        font-size: 22.5px;
+    }
+
+    .showCounter {
+        font-size: 25px;
+    }
+
+    .mainButton {
+        font-size: 12.5px;
+        font-weight: bolder;
+    }
+}
